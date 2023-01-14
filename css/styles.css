@@ -1,3 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
-  text-align: center;
+  text-align: left;
+  font-family: monospace;
+  color: rgb(248, 248, 248);
+  font-size: 30px;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  letter-spacing: 5px;
+}
+
+footer {
+  color: rgb(180, 180, 180);
+  font-family: monospace;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+}
+
+section {
+  font-family: monospace;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 35px;
+  right: 40px;
+  top: 70px;
+  color: rgb(147, 12, 12);
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: rgb(16, 16, 16);
+}
+
+a:hover {
+  text-decoration: underline;
 }
